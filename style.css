@@ -268,6 +268,7 @@ div>img:hover {
     margin-right: 0;
     background-color: #FFF;
     border-radius: 30px 5px 5px 30px;
+
 }
 
 ::placeholder {
@@ -277,10 +278,100 @@ div>img:hover {
     padding-left: 30px;
 }
 
+
+.upcomming-section {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+}
+
+.new-small-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+
+}
+
+.new-big-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.new-title-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 390px;
+}
+
+.middle-section {
+    border: 15px red solid;
+    border-radius: 465px;
+    background-color: white;
+    padding: 40px;
+
+}
+
+.right-section {
+    margin-top: 45px;
+    margin-left: 120px;
+}
+
+.right-title {
+    color: #F00;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.right-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.holiday-small-title {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+#holiday {
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-big-title {
+    color: #070211;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
 /* footer section style */
 
 .footer {
-    /* display: flex; */
+
     background-color: #070211;
 
 }
@@ -307,21 +398,73 @@ div>img:hover {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
-    line-height: 40px;
     padding-top: 120px;
     padding-right: 275px;
+    line-height: 0;
 }
 
 .call {
     display: flex;
-    
+
+}
+#number{
+    padding-top: 18px;
 }
 
 .web {
     display: flex;
+    margin-top: 0;
 }
-
-.call-web-image {
+#site{
+    padding-top: 18px;
+}
+.call-icone {
     width: 24px;
     height: 24px;
+    padding-top: 36px;
+    padding-right: 8px;
+}
+
+.web-icone {
+    width: 24px;
+    height: 24px;
+    padding-top: 36px;
+    padding-right: 8px;
+}
+
+hr {
+    background-color: rgba(255, 255, 255, 0.055);
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 50px;
+
+}
+
+.social-media {
+    display: flex;
+    margin-left: 640px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lower-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 120px;
+}
+
+.copyright {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.unsubscribe {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 50px;
 }
