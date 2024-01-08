@@ -4,7 +4,7 @@
 
 }
 
-/* header style */
+/* header section style */
 .header {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Banner\ Image.png);
     width: 1320px;
@@ -36,9 +36,9 @@
 
 }
 
-/* main style */
+/* main section style */
 .offer {
-    margin: 120px 600px;
+    margin: 120px 550px;
 }
 
 .offer-off {
@@ -73,7 +73,7 @@
 }
 
 .happy-new-year-pic {
-    margin-left: 400px;
+    margin-left: 380px;
     margin-right: 400px;
     margin-top: 0;
     margin-bottom: 120px;
@@ -244,7 +244,8 @@ div>img:hover {
     height: 65px;
     padding-left: 212px;
 }
-.subscribe-btn{
+
+.subscribe-btn {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -253,16 +254,74 @@ div>img:hover {
     padding: 18px 35px;
     margin-left: 0;
 }
+
 .subscribe-button {
     width: 650px;
     height: 80px;
-    padding-left:  300px;
+    padding-left: 300px;
+
+}
+
+#email {
+    width: 550px;
+    height: 63px;
+    margin-right: 0;
+    background-color: #FFF;
+    border-radius: 30px 5px 5px 30px;
+}
+
+::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+/* footer section style */
+
+.footer {
+    /* display: flex; */
+    background-color: #070211;
+
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-description {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.location-container {
+    padding-top: 120px;
+    padding-left: 140px;
+}
+
+.call-web-site {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 120px;
+    padding-right: 275px;
+}
+
+.call {
+    display: flex;
     
 }
-#email{
-   width: 550px;
-   height: 63px;
-   margin-right: 0;
-   background-color: #FFF;
-   border-radius: 30px 5px 5px 30px;
+
+.web {
+    display: flex;
+}
+
+.call-web-image {
+    width: 24px;
+    height: 24px;
 }
