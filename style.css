@@ -1,0 +1,162 @@
+* {
+    font-family: 'Merriweather', serif;
+
+
+}
+
+/* header style */
+.header {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: auto;
+    max-width: 1320;
+
+
+}
+
+
+.small-title {
+    padding-top: 160px;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.big-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    height: 190px;
+    width: 630px;
+    margin-left: 340px;
+
+}
+
+/* main style */
+.offer {
+    padding: 120px 600px;
+}
+
+.offer-off {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+
+.offer-description {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    width: 450px;
+    margin-bottom: 0;
+
+
+}
+
+.offer-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    width: 430px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.happy-new-year-pic {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-bottom: 120px;
+
+
+}
+
+.party {
+    margin: 80px 0px 140px 130px;
+}
+
+.party-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 645px;
+    height: 180px;
+
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    width: 700px;
+    height: 60px;
+
+}
+
+.button {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #07021100;
+    border: 0;
+
+}
+
+.party-container {
+    display: flex;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.year-pic {
+    margin: 70px 130px 70px 0px;
+}
+
+.address {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    max-width: 1320px;
+    margin: 120px 140px;
+    text-align: center;
+
+
+}
+
+.address-details {
+    font-size: 32px;
+    font-weight: 600;
+    align-content: center;
+    padding-top: 100px;
+
+}
+
+.orenge {
+    color: #F00;
+
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F00;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
